@@ -11,7 +11,7 @@
 	top: 0%;
 	left: 0%;
 	max-width: 100%;
-	height: auto;
+    height: auto;
 }
 navigator {
 	display: flex;
@@ -62,9 +62,9 @@ a:active {
 	line-height: 26px;
 	text-align: left;
 }
-.msg{
-    position: relative;
-    padding-top: 5%;
+.msg {
+	position: relative;
+	padding-top: 5%;
 }
 
 .linkedin-button {
@@ -94,22 +94,30 @@ a:active {
 }
 
 .options {
-    text-align: center;
-    display:inline-block;
-    margin-left: 15px;
-    position: relative;
+    padding-top: 3.5%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	display: inline-block;
+	margin-left: 15px;
+	position: relative;
 }
 
 .options-msg {
-    color: #C3C5CD;
-    font-family: Domine;
-    font-size: 26px;
-    line-height: 33px;
-  }
+	Text-align: center;
+	float: left;
+	color: #c3c5cd;
+	font-family: Domine;
+	font-size: 26px;
+	line-height: 33px;
+}
 
-  .options-dropdown{
-        background-color: #FFFFFF;
-        border: 1px solid #8492A6;
-        border-radius: 5px;
-        width: 264px;
-  }
+.options-dropdown {
+	align-items: right;
+	float: right;
+	background-color: #ffffff;
+	border: 1px solid #8492a6;
+	border-radius: 5px;
+	width: 264px;
+}

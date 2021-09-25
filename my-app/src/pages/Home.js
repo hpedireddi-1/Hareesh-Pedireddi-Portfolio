@@ -5,10 +5,7 @@ import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 
 function Home() {
-    const options = [
-        'one', 'two', 'three'
-      ];
-      const defaultOption = options[0];
+	const options = [ 'checkout my résumé', 'view my projects', 'connect with me on LinkedIn' ];
 
 	return (
 		<div>
@@ -33,7 +30,7 @@ function Home() {
 				<div className="name">Hareesh Pedireddi</div>
 				<div className="options">
 					<div className="options-msg">Would you like to: </div>
-                    <Dropdown className="options-dropdown" options={options} placeholder="Select an option" />
+					<Dropdown className="options-dropdown" options={options} placeholder="Select an option" />
 				</div>
 			</div>
 		</div>
