@@ -1,0 +1,76 @@
+.icon {
+    width: 161px;
+    height: 161px;
+    position: absolute;
+    top: 23px;
+    left: 93px;
+  }
+
+  .background {
+    max-width: 100%;
+    height: auto;
+  }
+  navigator{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 9vh;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "Open Sans", sans-serif;
+}
+
+
+  a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary);
+  }
+  a:active{
+    text-decoration: none;
+    font-weight: bold;
+    color: #f55142;
+  }
+
+  .home-button {
+    position: absolute;
+    top: 70px;
+    left: 843px;
+    color: #FFFFFF;
+    font-family: Domine;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .about-button {
+    position: absolute;
+    top: 70px;
+    left: 937px;
+    color: #FFFFFF;
+    font-family: Domine;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .project-button {
+    position: absolute;
+    top: 70px;
+    left: 1066px;
+    color: #FFFFFF;
+    font-family: Domine;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .linkedin-button{
+    position: absolute;
+    top: 70px;
+    left: 1218px;
+    color: #FFFFFF;
+    font-family: Domine;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+  }
