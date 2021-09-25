@@ -1,75 +1,94 @@
 .icon {
-    width: 161px;
-    height: 161px;
-    position: absolute;
-    top: 2.25%;
-    left: 6.46%;
-  }
-
-  .background {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    max-width: 100%;
-    height: auto;
-  }
-  navigator{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 184px;
-    background-color: rgba(0, 0, 0, 0);
-    font-family: "Open Sans", sans-serif;
+	width: 161px;
+	height: 161px;
+	position: absolute;
+	top: 2.25%;
+	left: 6.46%;
 }
 
+.background {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	max-width: 100%;
+	height: auto;
+}
+navigator {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 184px;
+	background-color: rgba(0, 0, 0, 0);
+	font-family: "Open Sans", sans-serif;
+}
 
-  a:hover{
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--primary);
-  }
-  a:active{
-    text-decoration: none;
-    font-weight: bold;
-    color: #f55142;
-  }
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: var(--primary);
+}
+a:active {
+	text-decoration: none;
+	font-weight: bold;
+	color: #f55142;
+}
 
-  .home-button {
-    position: absolute;
-    left: 58.54%;
-    color: #FFFFFF;
-    font-family: Domine;
-    font-size: 20px;
-    line-height: 26px;
-    text-align: left;
-  }
+.home-button {
+	position: absolute;
+	left: 58.54%;
+	color: #ffffff;
+	font-family: Domine;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: left;
+}
 
-  .about-button {
-    position: absolute;
-    left: 65.07%;
-    color: #FFFFFF;
-    font-family: Domine;
-    font-size: 20px;
-    line-height: 26px;
-    text-align: left;
-  }
+.about-button {
+	position: absolute;
+	left: 65.07%;
+	color: #ffffff;
+	font-family: Domine;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: left;
+}
 
-  .project-button {
-    position: absolute;
-    left: 74.03%;
-    color: #FFFFFF;
-    font-family: Domine;
-    font-size: 20px;
-    line-height: 26px;
-    text-align: left;
-  }
+.project-button {
+	position: absolute;
+	left: 74.03%;
+	color: #ffffff;
+	font-family: Domine;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: left;
+}
+.msg{
+    position: relative;
+    padding-top: 5%;
+}
 
-  .linkedin-button{
-    position: absolute;
-    left: 84.59%;
-    color: #FFFFFF;
-    font-family: Domine;
-    font-size: 20px;
-    line-height: 26px;
-    text-align: left;
-  }
+.linkedin-button {
+	position: absolute;
+	left: 84.59%;
+	color: #ffffff;
+	font-family: Domine;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: left;
+}
+
+.hello-msg {
+	color: #ffffff;
+	font-family: Domine;
+	font-size: 60px;
+	font-style: italic;
+	line-height: 78px;
+	text-align: center;
+}
+.name {
+	color: #ffffff;
+	font-family: Domine;
+	font-size: 60px;
+	line-height: 78px;
+	text-align: center;
+}

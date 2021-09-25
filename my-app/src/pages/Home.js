@@ -7,7 +7,7 @@ function Home() {
 		<div>
 			<img className="background" src={background} resizeMode="stretch" />
 			<navigator>
-            <img className="icon" src={icon} />
+				<img className="icon" src={icon} />
 				<a href="/" className="home-button">
 					Home
 				</a>
@@ -21,6 +21,10 @@ function Home() {
 					Connect With Me
 				</a>
 			</navigator>
+			<div className="msg">
+				<div className="hello-msg">Hello, I'm</div>
+				<div className="name">Hareesh Pedireddi</div>
+			</div>
 		</div>
 	);
 }
