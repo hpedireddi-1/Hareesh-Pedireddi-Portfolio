@@ -92,3 +92,24 @@ a:active {
 	line-height: 78px;
 	text-align: center;
 }
+
+.options {
+    text-align: center;
+    display:inline-block;
+    margin-left: 15px;
+    position: relative;
+}
+
+.options-msg {
+    color: #C3C5CD;
+    font-family: Domine;
+    font-size: 26px;
+    line-height: 33px;
+  }
+
+  .options-dropdown{
+        background-color: #FFFFFF;
+        border: 1px solid #8492A6;
+        border-radius: 5px;
+        width: 264px;
+  }
