@@ -6,6 +6,10 @@
 	left: 6.46%;
 }
 
+.boldtext{
+    font-weight: bold;
+}
+
 .background {
 	position: absolute;
 	top: 0%;
@@ -13,7 +17,7 @@
 	max-width: 100%;
     height: auto;
 }
-navigator {
+.navigator {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -114,8 +118,6 @@ a:active {
 }
 
 .options-dropdown {
-	align-items: right;
-	float: right;
 	background-color: #ffffff;
 	border: 1px solid #8492a6;
 	border-radius: 5px;
