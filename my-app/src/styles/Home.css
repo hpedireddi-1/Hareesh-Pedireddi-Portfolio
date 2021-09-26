@@ -6,16 +6,17 @@
 	left: 6.46%;
 }
 
-.boldtext{
-    font-weight: bold;
+.boldtext {
+	font-weight: bold;
 }
 
 .background {
+    display: flex;
 	position: absolute;
 	top: 0%;
 	left: 0%;
 	max-width: 100%;
-    height: auto;
+	height: auto;
 }
 .navigator {
 	display: flex;
@@ -98,7 +99,7 @@ a:active {
 }
 
 .options {
-    padding-top: 3.5%;
+	padding-top: 3.5%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -122,4 +123,15 @@ a:active {
 	border: 1px solid #8492a6;
 	border-radius: 5px;
 	width: 264px;
+}
+
+.form-dropdown{
+    align-items: center;
+    display: flex;
+}
+
+.submit-button {
+	color: #ffffff;
+	width: 48px;
+	height: 48px;
 }

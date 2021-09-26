@@ -1,12 +1,13 @@
 import React from 'react';
 
+import submit from '../images/submit.png';
 import icon from '../images/icon_pic.png';
 import background from '../images/home-background.jpg';
 import '../styles/Home.css';
 
 function Home() {
 	const [ option, setOption ] = React.useState('None');
-	const options = [ 'None', 'Résumé', 'Projects', 'LinkedIn' ];
+	const options = [ 'None', 'Resume', 'Projects', 'LinkedIn' ];
 
 	return (
 		<div>
@@ -30,28 +31,31 @@ function Home() {
 				<div className="hello-msg">Hello, I'm</div>
 				<div className="name">Hareesh Pedireddi</div>
 				<div className="options">
-					<div className="options-msg">Would you like to: </div>
-					<form
-						onSubmit={(event) => {
-							console.log(option);
-						}}
-					>
-						<select
-							className="options-dropdown"
-							value={option}
-							onChange={(event) => {
-								setOption(event.target.value);
+					<div className="options-msg">
+						Would you like to:
+						<form
+							className="form-dropdown"
+							onSubmit={() => {
+								console.log(option);
 							}}
 						>
-							<option className="boldtext" value={options[0]}>
-								Select an option
-							</option>
-							<option value={options[1]}>checkout my résumé</option>
-							<option value={options[2]}>view my projects</option>
-							<option value={options[3]}>connect with me on LinkedIn</option>
-						</select>
-						<input type="submit" value="Submit" />
-					</form>
+							<select
+								className="options-dropdown"
+								value={option}
+								onChange={(event) => {
+									setOption(event.target.value);
+								}}
+							>
+								<option className="boldtext" value={options[0]}>
+									Select an option
+								</option>
+								<option value={options[1]}>checkout my résumé</option>
+								<option value={options[2]}>view my projects</option>
+								<option value={options[3]}>connect with me on LinkedIn</option>
+							</select>
+							<input type="image" className="submit-button" src={submit} value="Submit" />
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
