@@ -83,7 +83,7 @@ ul li {
 }
 
 .project-photo {
-    flex: 1;
+    flex: 1 1 45%;
     max-width: 45%;
     height: auto;
     margin: 10px;
@@ -91,12 +91,10 @@ ul li {
 }
 
 .project-description {
-    flex: 1;
-    max-width: 50%;
+    flex: 1 1 50%;
     padding: 10px;
 }
 
-/* Make sure images and text stack on smaller screens */
 @media screen and (max-width: 768px) {
     .project-entry {
         flex-direction: column;
@@ -107,7 +105,6 @@ ul li {
         max-width: 100%;
     }
 }
-
 
 nav {
     background: #333;
