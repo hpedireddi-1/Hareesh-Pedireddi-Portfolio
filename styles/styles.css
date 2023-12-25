@@ -76,47 +76,38 @@ ul li {
     margin: 0 auto; /* Centering the image */
 }
 .project-entry {
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     margin-bottom: 20px;
 }
 
 .project-photo {
-    width: 45%;
-    max-width: 600px;
+    flex: 1;
+    max-width: 45%;
     height: auto;
     margin: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .project-description {
-    width: 50%;
+    flex: 1;
+    max-width: 50%;
     padding: 10px;
 }
 
-/* Clearfix for floated elements */
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
+/* Make sure images and text stack on smaller screens */
 @media screen and (max-width: 768px) {
-    .project-photo, .project-description {
-        width: 100%;
-        float: none;
-        margin: 10px 0;
+    .project-entry {
+        flex-direction: column;
+    }
+
+    .project-photo,
+    .project-description {
+        max-width: 100%;
     }
 }
+
 
 nav {
     background: #333;
